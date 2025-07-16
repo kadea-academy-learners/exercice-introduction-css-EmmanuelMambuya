@@ -1,0 +1,75 @@
+
+*
+{
+
+}
+
+body
+{
+    margin:0 auto;
+    width:1600px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main
+{
+    
+}
+
+.titre1
+{
+    font-size: 44px;
+    padding-top: 50px;
+}
+
+.sec1
+{
+    text-align: center;
+    background-color: rgb(239, 238, 238);
+    padding-bottom: 30px;
+}
+
+img
+{
+    width:100%;
+}
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+figcaption
+{
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.art1
+{
+    margin:0px 400px;
+    font-size: 20px;
+}
+
+.art1 li
+{
+   margin-bottom: 30px;
+}
+
+.art2
+{
+    margin:0px 400px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sect2
+{
+    margin:0px 300px;
+    font-size: 20px;
+    text-align: center;  
+}
