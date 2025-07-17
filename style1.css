@@ -1,13 +1,17 @@
 
 *
 {
-    font-family: 'Arial', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body
 {
     margin:0 auto;
     width:1600px;
+
 }
 
 main img
@@ -93,7 +97,8 @@ main h4 a{
 }
 
 
-.art
+.h4
 {
     text-align: center;
+    margin-top: 20px;
 }
