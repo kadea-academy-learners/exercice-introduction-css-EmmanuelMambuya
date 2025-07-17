@@ -7,19 +7,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body
+.container
 {
     margin:0 auto;
-    width:1500px;
+    width:75%;
     border-radius: 10px;
     padding:10px;
-    list-style-type:circle;
-
 }
 
-main img
+
+.slide figure
 {
-    width: 100%;  
+    background-color: #ffffff;
+}
+
+
+.slide figure img
+{
+    width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        background-color: #ffffff;
 }
 
 
@@ -51,27 +59,29 @@ figcaption
     text-align: center;
     text-decoration: none;
     padding: 20px;
-    font-size: 20px;
+    font-size: 0.8em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 
-main
+.main
 {
     background-color: #f2f2f2;
 }
 
 
-main h3
+.main h3
 {
-    margin:0px 400px;
+    margin:0px 200px;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 60px;
+    padding-top: 20px;
 }
 
 
-main article
+.main article
 {
     margin:0px 200px;
     font-size: 20px;
@@ -79,14 +89,14 @@ main article
 }
 
 
-main article li
+.main article li
 {
    margin-bottom: 40px;
 }
 
 
 
-main h4
+.main .bas-de-page
 {
     margin:0px 200px;
     font-size: 20px;
@@ -94,16 +104,18 @@ main h4
     padding-bottom: 50px;
 }
 
-main h4 a{
+.bas-de-page a{
     text-decoration: underline;
     color: blue;
 }
 
 /*----pied de page ------*/
 
-.h4
+.bas-de-page 
 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
+    background-color:#f2f2f2;
+    margin-bottom: 20px;
 }
 /*------------------------*/
