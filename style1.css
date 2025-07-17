@@ -10,7 +10,10 @@
 body
 {
     margin:0 auto;
-    width:1600px;
+    width:1500px;
+    border-radius: 10px;
+    padding:10px;
+    list-style-type:circle;
 
 }
 
@@ -96,9 +99,11 @@ main h4 a{
     color: blue;
 }
 
+/*----pied de page ------*/
 
 .h4
 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
+/*------------------------*/
