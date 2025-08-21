@@ -1,27 +1,19 @@
-/* Reset + bonnes pratiques */
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
     box-sizing: border-box;
+    font-family:Helvetica, sans-serif
 }
 
-html {
-    font-size: 16px; /* base pour rem, améliore l’accessibilité */
+
+body{
+
 }
 
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-}
-
-/* ---------- Header ---------- */
-header {
+header{
     text-align: center;
-    background-color: #f2f2f2;
-    padding: 2rem;
-    border-bottom: 2px solid #ddd;
+    background-color:#f2f2f2;
+    padding: 30px;
 }
 
 header h1 {
@@ -29,105 +21,64 @@ header h1 {
     margin-bottom: 0.5rem;
 }
 
-header p {
-    font-size: 1.2rem;
-    color: #555;
+header p{
+   color: #555555;
+   font-size: 16px;
 }
 
-/* ---------- Main ---------- */
-main {
-    max-width: 900px;
-    margin: 2rem auto;
-    padding: 1rem;
-}
-
-/* Image + légende */
-figure {
-    background-color: #fff;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+main{
     text-align: center;
+    background-color:#f2f2f2;
 }
 
-figure img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
+img{
+    z-index: 10;
+}
+
+figure{
+    background-color: #ffffff;
+    margin-bottom:20px;
 }
 
 figcaption {
     margin-top: 1rem;
     font-size: 0.9rem;
     color: #555;
+}
+
+p
+{
+    color: #f2f2f2;
+}
+
+h1,h2,h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul{
+    margin-top: 30px;
+}
+
+ul,
+blockquote{
+    text-align: left;
+    margin: 0px 30%;
+    color: #555;
+}
+
+blockquote{
+    padding: 30px;
     font-style: italic;
 }
 
-/* ---------- Titres ---------- */
-h1, h2, h3 {
-    text-align: center;
-    margin-bottom: 1.5rem;
+ul li{
+    line-height: 30px;
+    color: #555;
 }
 
-/* ---------- Liste (timeline) ---------- */
-ul {
-    list-style: none; /* on va gérer la timeline en CSS plus tard */
-    margin: 0 auto;
-    padding-left: 0;
-    max-width: 600px;
+
+footer{
+    text-align: left;
+    background-color:#f2f2f2;
 }
 
-ul li {
-    margin-bottom: 1rem;
-    padding-left: 1.2rem;
-    position: relative;
-    line-height: 1.5;
-}
-
-/* Petit cercle avant chaque événement */
-ul li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    color: #0077cc;
-    font-size: 1.2rem;
-}
-
-/* ---------- Blockquote ---------- */
-blockquote {
-    margin: 2rem auto;
-    max-width: 700px;
-    padding: 1.5rem;
-    background: #fff;
-    border-left: 5px solid #0077cc;
-    font-style: italic;
-    color: #444;
-    border-radius: 6px;
-}
-
-blockquote footer {
-    margin-top: 1rem;
-    font-style: normal;
-    text-align: right;
-    font-size: 0.9rem;
-    color: #666;
-}
-
-/* ---------- Footer ---------- */
-footer {
-    background-color: #f2f2f2;
-    padding: 2rem;
-    text-align: center;
-    border-top: 2px solid #ddd;
-}
-
-footer a {
-    color: #0077cc;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
