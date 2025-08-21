@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:Georgia, serif;
+    font-family:Helvetica, sans-serif
 }
 
 
@@ -18,29 +18,38 @@ header{
 
 main{
     text-align: center;
-    background-color:#ffffff;
+    background-color:#f2f2f2;
 }
 
 img{
     z-index: 10;
 }
 
+figure{
+    background-color: #ffffff;
+    margin-bottom:20px;
+}
+
 figcaption
 {
-    margin:20px;
+    margin-top:20px;
+
 }
 
 h1,h2,h3{
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 20px;
 }
 
-ul{
+ul,
+blockquote{
     text-align: left;
     margin: 0px 30%;
 }
 
+blockquote{
+    padding: 30px;
+}
 
 ul li{
     line-height: 30px;
